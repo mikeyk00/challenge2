@@ -14,13 +14,13 @@
 		2718958618D8F1AC00E9BA1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2718958518D8F1AC00E9BA1A /* main.m */; };
 		2718958A18D8F1AC00E9BA1A /* MKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2718958918D8F1AC00E9BA1A /* MKAppDelegate.m */; };
 		2718958D18D8F1AC00E9BA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2718958B18D8F1AC00E9BA1A /* Main.storyboard */; };
-		2718959018D8F1AC00E9BA1A /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2718958F18D8F1AC00E9BA1A /* MKViewController.m */; };
 		2718959218D8F1AC00E9BA1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2718959118D8F1AC00E9BA1A /* Images.xcassets */; };
 		2718959918D8F1AC00E9BA1A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2718959818D8F1AC00E9BA1A /* XCTest.framework */; };
 		2718959A18D8F1AC00E9BA1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2718957918D8F1AC00E9BA1A /* Foundation.framework */; };
 		2718959B18D8F1AC00E9BA1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2718957D18D8F1AC00E9BA1A /* UIKit.framework */; };
 		271895A318D8F1AC00E9BA1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 271895A118D8F1AC00E9BA1A /* InfoPlist.strings */; };
 		271895A518D8F1AC00E9BA1A /* UIViewControllerProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 271895A418D8F1AC00E9BA1A /* UIViewControllerProblemTests.m */; };
+		271895B018D8F34B00E9BA1A /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271895AF18D8F34B00E9BA1A /* MKViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		2718958818D8F1AC00E9BA1A /* MKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKAppDelegate.h; sourceTree = "<group>"; };
 		2718958918D8F1AC00E9BA1A /* MKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAppDelegate.m; sourceTree = "<group>"; };
 		2718958C18D8F1AC00E9BA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2718958E18D8F1AC00E9BA1A /* MKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKViewController.h; sourceTree = "<group>"; };
-		2718958F18D8F1AC00E9BA1A /* MKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKViewController.m; sourceTree = "<group>"; };
 		2718959118D8F1AC00E9BA1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2718959718D8F1AC00E9BA1A /* UIViewControllerProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewControllerProblemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2718959818D8F1AC00E9BA1A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		271895A018D8F1AC00E9BA1A /* UIViewControllerProblemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewControllerProblemTests-Info.plist"; sourceTree = "<group>"; };
 		271895A218D8F1AC00E9BA1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		271895A418D8F1AC00E9BA1A /* UIViewControllerProblemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerProblemTests.m; sourceTree = "<group>"; };
+		271895AE18D8F34B00E9BA1A /* MKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKViewController.h; path = ../MKViewController.h; sourceTree = "<group>"; };
+		271895AF18D8F34B00E9BA1A /* MKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKViewController.m; path = ../MKViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				2718958818D8F1AC00E9BA1A /* MKAppDelegate.h */,
 				2718958918D8F1AC00E9BA1A /* MKAppDelegate.m */,
 				2718958B18D8F1AC00E9BA1A /* Main.storyboard */,
-				2718958E18D8F1AC00E9BA1A /* MKViewController.h */,
-				2718958F18D8F1AC00E9BA1A /* MKViewController.m */,
+				271895AE18D8F34B00E9BA1A /* MKViewController.h */,
+				271895AF18D8F34B00E9BA1A /* MKViewController.m */,
 				2718959118D8F1AC00E9BA1A /* Images.xcassets */,
 				2718958018D8F1AC00E9BA1A /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2718958A18D8F1AC00E9BA1A /* MKAppDelegate.m in Sources */,
-				2718959018D8F1AC00E9BA1A /* MKViewController.m in Sources */,
+				271895B018D8F34B00E9BA1A /* MKViewController.m in Sources */,
 				2718958618D8F1AC00E9BA1A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
